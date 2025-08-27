@@ -1,0 +1,23 @@
+{
+  "name": "lista-de-tarefas",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "todo list",
+    "tarefas",
+    "estudos",
+    "quem leu é corno"
+  ],
+  "author": "Eduardo Tashiro",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "chalk": "^5.6.0"
+  }
+}
