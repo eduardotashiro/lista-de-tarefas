@@ -1,6 +1,8 @@
 import { select, isCancel } from "@clack/prompts";
+import { createTaskMenu } from "./create.js";
+import { listTaskMenu } from "./list.js";
 
-export async function mainMenu(params) {
+export async function mainMenu() {
 
     const option = await select({
         message: "Escolha o que deseja fazer",
@@ -15,15 +17,16 @@ export async function mainMenu(params) {
 
     switch (option) {
         case "create":
-            console.log("Aqui vai criar nova tarefa");
+            createTaskMenu()
+            
             break;
 
         case "list":
-            console.log("Aqui vai listar tarefas");
+           listTaskMenu()
             break;
 
         case "end":
-            console.log("Fim do programa");
+           
             break;
 
     }

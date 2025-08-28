@@ -1,2 +1,2 @@
-# Lista de tarefas
-### em desenvolvimento papai
+# To do List
+### Projeto de estudos focado em lógica de programação
